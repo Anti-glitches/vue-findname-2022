@@ -1,6 +1,6 @@
 import { createRouter, createWebHistory } from "vue-router";
 import HomeView from "../views/HomeView.vue";
-import About from "../views/About.vue";
+import CatFact from "../views/CatFact.vue";
 
 const routes = [
     {
@@ -9,9 +9,9 @@ const routes = [
         component: HomeView,
     },
     {
-        path: "/about",
-        name: "About",
-        component: About,
+        path: "/cat-fact",
+        name: "CatFact",
+        component: CatFact,
     },
 ];
 

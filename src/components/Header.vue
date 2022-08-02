@@ -6,7 +6,7 @@
       & <a class="text-blue-400" href="https://restcountries.com/v2/alpha/id" target="_blank">restcountries</a></p>
     <div class="flex text-center justify-center gap-4">
       <router-link to="/" class="text-blue-200">Guess Nationality</router-link>
-      <router-link to="/about" class="text-blue-200">Cat Quotes</router-link>
+      <router-link to="/cat-fact" class="text-blue-200">Cat Fact</router-link>
     </div>
   </header>
 </template>

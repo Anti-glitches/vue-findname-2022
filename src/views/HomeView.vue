@@ -46,7 +46,7 @@ export default {
         setTimeout(()=>{
           this.loading = false;
           this.empty = this.countriesInfo.length === 0;
-        } ,1000)
+        } ,1500)
       },
       async getCountryInfo(id, prob){
         const res = await fetch(`https://restcountries.com/v2/alpha/${id}`);
